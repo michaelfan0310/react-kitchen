@@ -1,10 +1,13 @@
 .App {
-  text-align: center;
+  left:5%;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 10vmin;
   pointer-events: none;
+  position: absolute;
+  top:13%;
+  left: 55%;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -13,8 +16,8 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
+<!--/* .App-header {
+  background-color: #f1f3f70c;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,12 +25,50 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+} */-->
 
 .App-link {
   color: #61dafb;
 }
+html {
+  background-color: #E4E9FD;
+  background-image: -webkit-linear-gradient(60deg, #A683E3 60%, #E4E9FD 40%);
+  min-height: 1000px;
+  
+}
 
+        h1 {color:#206a5d;
+        font-size:3em;
+        text-shadow:2px 2px #f00;}
+       table{font-size:x-large;}
+        
+        thead{color:rgb(219, 28, 89);}
+        
+        td{color:rgb(21, 117, 104);}
+        
+        p {background:rgb(192, 128, 189);}
+        .steps {width:90%;}
+
+        #cookies{
+        position: relative;
+        top:-170px;
+        left:250px;
+        z-index:10;
+        float:left;}
+
+        #cookies2{
+        position: relative;
+        top:-220px;
+        left:250px;
+        z-index:10;
+        float:left;}   
+
+       
+            #container{width: 550px;
+                    margin:auto;
+                  border: 3px solid rgb(125, 147, 190)  ;
+                  border-top:  15px groove rgb(125, 147, 190);
+                  padding:25px;}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
