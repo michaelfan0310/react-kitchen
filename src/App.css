@@ -38,8 +38,11 @@ html {
 }
 
         h1 {color:#206a5d;
-        font-size:3em;
+        font-size:3.8em;
         text-shadow:2px 2px #f00;}
+         h2 {color:#09312a;
+        font-size:1.6rem;
+        }
        table{font-size:x-large;}
         
         thead{color:rgb(219, 28, 89);}
@@ -52,7 +55,7 @@ html {
         #cookies{
         position: relative;
         top:-170px;
-        left:250px;
+        left:280px;
         z-index:10;
         float:left;}
 
