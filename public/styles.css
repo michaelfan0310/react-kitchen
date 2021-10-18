@@ -6,8 +6,12 @@ html {
 }
 
         h1 {color:#206a5d;
-        font-size:3em;
+        font-size:4.5rem;
         text-shadow:2px 2px #f00;}
+        
+        h2 {color:#09312a;
+        font-size:1.8rem;
+        }
        table{font-size:x-large;}
         
         thead{color:rgb(219, 28, 89);}
@@ -15,8 +19,13 @@ html {
         td{color:rgb(21, 117, 104);}
         
         p {background:rgb(192, 128, 189);}
+
         .steps {width:90%;
         font-size: 1.5rem;}
+
+        .subline{
+          font-size: 1.5rem;
+        }
 
         #cookies{
         position: relative;
@@ -28,7 +37,7 @@ html {
         #cookies2{
         position: relative;
         top:-220px;
-        left:250px;
+        left:320px;
         z-index:10;
         float:left;}   
 
