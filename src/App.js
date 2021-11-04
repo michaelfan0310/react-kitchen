@@ -5,9 +5,11 @@ import SubtitleItem from './components/SubtitleItem';
 import Ingredients from './components/Ingredients';
 import Steps from './components/Steps';
 import VideoItem from './components/VideoItem';
+import Photos from './components/Photos';
 
 function App() {
   return (
+    
     <div className="App">
       <TitleItem></TitleItem>
      
@@ -18,9 +20,10 @@ function App() {
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQslNt0Y1iSYZiPGjjn-s2yt9dEdE_aNfHBTQ&usqp=CAU"
                 width="40%" />
 
-      <Ingredients></Ingredients>
-      <Steps></Steps>
-      <VideoItem></VideoItem>
+      <Ingredients />
+      <Steps />
+      <VideoItem />
+      <Photos />
     </div>
   );
 }
