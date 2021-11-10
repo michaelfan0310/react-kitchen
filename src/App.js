@@ -1,10 +1,13 @@
+import React from 'react';
+import ReactPlayer from 'react-player';
+
 import logo from './logo.svg';
 import './App.css';
 import TitleItem from './components/TitleItem';
 import SubtitleItem from './components/SubtitleItem';
 import Ingredients from './components/Ingredients';
 import Steps from './components/Steps';
-import VideoItem from './components/VideoItem';
+// import Player from './components/VideoItem';
 import Photos from './components/Photos';
 
 function App() {
@@ -22,7 +25,7 @@ function App() {
 
       <Ingredients />
       <Steps />
-      <VideoItem />
+      <ReactPlayer url='https://www.youtube.com/watch?v=MLLYcbjVwmw' />
       <Photos />
     </div>
   );

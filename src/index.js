@@ -1,5 +1,6 @@
 import React,  { Component } from 'react';
 import ReactDOM from 'react-dom';
+import ReactPlayer from 'react-player';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
