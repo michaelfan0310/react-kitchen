@@ -1,13 +1,15 @@
 html {
   background-color: #E4E9FD;
-  background-image: -webkit-linear-gradient(75deg, #A683E3 50%, #E4E9FD 50%);
-  min-height: 1000px;
+  background-image: -webkit-linear-gradient(75deg, #A683E3 60%, #E4E9FD 40%);
+  min-height: 1200px;
   
 }
 
-        h1 {color:#206a5d;
+        /* .title0 h1{
+        color:#206a5d;
         font-size:4.5rem;
-        text-shadow:2px 2px #f00;}
+        text-shadow:2px 2px rgb(255, 251, 0);
+         text-align: center;} */
         
         h2 {color:#09312a;
         font-size:1.8rem;
@@ -43,7 +45,11 @@ html {
 
        
             #container{width: 550px;
-                    margin:auto;
+                   
                   border: 3px solid rgb(125, 147, 190)  ;
                   border-top:  15px groove rgb(125, 147, 190);
                   padding:25px;}
+
+                   #video {
+                    width: 70%;
+                  }
