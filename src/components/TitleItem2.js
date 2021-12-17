@@ -4,7 +4,7 @@ function TitleItem2(){
     const titleDate=weekday[d];
 
     return(<div>
-<h1> DoubleTree's Cookie Recipe Book <i className="fas fa-thumbs-up"></i></h1>
+<h1> Michael's Cookie Recipe Book <i className="fas fa-thumbs-up"></i></h1>
 
 <h6 className="date">{titleDate}</h6>
 </div>

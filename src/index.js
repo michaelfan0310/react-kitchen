@@ -1,6 +1,6 @@
 import React  from 'react';
 import ReactDOM from 'react-dom';
-import ReactPlayer from 'react-player';
+
 import './index.css';
 import App from './App';
 import App2 from './App2';
