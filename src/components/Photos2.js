@@ -2,8 +2,8 @@ import React from 'react';
 // import ReactDOM from 'react-dom';
 import './Photos.css'; 
 
-function Photos(){
-   const img="https://picsum.photos/200";
+function Photos2(){
+   const img="https://picsum.photos/300";
 
    return(<div>
    <h1 style={{color:"darkgreen"}}>Photos</h1>
@@ -12,4 +12,4 @@ function Photos(){
    </div>);
 
 }
-export default Photos;
+export default Photos2;

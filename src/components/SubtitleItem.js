@@ -1,13 +1,8 @@
 function SubtitleItem(){
-    return(<div>
- <h2>Contents:</h2>
+    return(<div id="RecipeA">
+ 
           
-            <ol>
-              <li><a href="#RecipeA">Chocolate Cookies</a></li>
-              <li><a href="MyRecipe2.html">Peanut Butter Cookies</a></li>
-            </ol>
-          
-            <h2 id="RecipeA">Chocolate Cookies</h2>
+            <h2 id="RecipeA2">Chocolate Cookies</h2>
           
             <ul>
               <li>Time: 30mins</li>
@@ -17,4 +12,4 @@ function SubtitleItem(){
     );
 }
 
-export default SubtitleItem
+export default SubtitleItem;

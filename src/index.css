@@ -19,8 +19,13 @@ html {
   
 }
 
+ .title0 {  color:#206a5d;
+        font-size:3.2em;
+        text-shadow:2px 2px rgb(255, 208, 0);     
+         text-align: center;}
+
         h1 {color:#206a5d;
-        font-size:3em;
+        font-size:2.5em;
         text-shadow:2px 2px #f00;}
        table{font-size:x-large;}
         
@@ -50,8 +55,4 @@ html {
     margin-top: 0;
     margin-right: 0;
 }
-            #container{width: 500px;
-                    margin:auto;
-                  border: 3px solid rgb(125, 147, 190)  ;
-                  border-top:  15px groove rgb(125, 147, 190);
-                  padding:25px;}
+          

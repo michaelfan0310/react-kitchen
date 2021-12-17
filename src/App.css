@@ -1,36 +1,48 @@
 .App {
-  
-  justify-content: center;
+   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* font-size: calc(10px + 2vmin); */
+  /* justify-content: center; */
 }
 
-.App-logo {
-  height: 10vmin;
-  pointer-events: none;
-  position: absolute;
-  top:13%;
-  left: 55%;
+.App2 {
+   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* font-size: calc(10px + 2vmin); */
+   position: absolute;
+  right: 10%;
+  top: 15%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-<!--/* .App-header {
-  background-color: #f1f3f70c;
+.App-header {
+ 
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center; */
+  /* justify-content: center; */
   font-size: calc(10px + 2vmin);
-  color: white;
-} */-->
+ 
+} 
 
 .App-link {
   color: #61dafb;
 }
+ #container{width: 500px;
+                    margin: 0 2%;
+                  border: 3px solid rgb(125, 147, 190)  ;
+                  border-top:  15px groove rgb(125, 147, 190);
+                  padding:25px;}
+
+                  #video {
+                    width: 70%;
+                  }
+
 html {
   background-color: #E4E9FD;
   background-image: -webkit-linear-gradient(60deg, #A683E3 60%, #E4E9FD 40%);
@@ -39,23 +51,30 @@ html {
 }
 
         h1 {color:#206a5d;
-        font-size:3.8em;
+        font-size:2.8em;
         text-shadow:2px 2px #f00;}
          h2 {color:#09312a;
         font-size:1.6rem;
         }
+
+   .subtitle2{
+     position: relative;
+     margin-top: -23%;
+     /* margin-left: -5%; */
+   }     
        table{font-size:x-large;}
         
-        thead{color:rgb(219, 28, 89);}
+        thead{color:rgb(219, 28, 89);
+        }
         
         td{color:rgb(21, 117, 104);}
         
         p {background:rgb(192, 128, 189);}
         .steps {width:90%;}
 
-        #cookies{
+        #cookies, #cookiesB{
         position: relative;
-        top:-170px;
+        top:-160px;
         left:280px;
         z-index:10;
         float:left;}
@@ -68,16 +87,27 @@ html {
         float:left;}   
 
        
-            #container{width: 550px;
-                    margin:auto;
-                  border: 3px solid rgb(125, 147, 190)  ;
-                  border-top:  15px groove rgb(125, 147, 190);
-                  padding:25px;}
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  #container{width: 550px;
+                    
+    border: 3px solid rgb(125, 147, 190)  ;
+    border-top:  15px groove rgb(125, 147, 190);
+    padding:25px;}
+
+  .date{
+    font-size: 1.3rem;
+    color: #61dafb;
+  } 
+  #RecipeA, #RecipeA2{
+    position: relative;
+    margin-top: -3%;
+       color: rgb(92, 40, 4);
+       
+  }  
+  #RecipeB,
+  #RecipeB2 {
+    position: relative;
+    margin-top: -3%;
+       color: chocolate;
   }
-  to {
-    transform: rotate(360deg);
-  }
-}
+  
+

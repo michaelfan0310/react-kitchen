@@ -1,5 +1,5 @@
 function Ingredients(){
-    return(<div>
+    return(<div className="subtitle2">
 <table>
               <thead>
                 <tr>

@@ -30,4 +30,4 @@ function Steps(){
     );
 }
 
-export default Steps
+export default Steps;
