@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/react-kitchen/static/css/main.c21536fa.chunk.css",
-    "main.js": "/react-kitchen/static/js/main.7a6c1a89.chunk.js",
-    "main.js.map": "/react-kitchen/static/js/main.7a6c1a89.chunk.js.map",
+    "main.css": "/react-kitchen/static/css/main.3096d78d.chunk.css",
+    "main.js": "/react-kitchen/static/js/main.6531008d.chunk.js",
+    "main.js.map": "/react-kitchen/static/js/main.6531008d.chunk.js.map",
     "runtime-main.js": "/react-kitchen/static/js/runtime-main.a78fd02f.js",
     "runtime-main.js.map": "/react-kitchen/static/js/runtime-main.a78fd02f.js.map",
     "static/js/2.f563795d.chunk.js": "/react-kitchen/static/js/2.f563795d.chunk.js",
     "static/js/2.f563795d.chunk.js.map": "/react-kitchen/static/js/2.f563795d.chunk.js.map",
     "index.html": "/react-kitchen/index.html",
-    "static/css/main.c21536fa.chunk.css.map": "/react-kitchen/static/css/main.c21536fa.chunk.css.map",
+    "static/css/main.3096d78d.chunk.css.map": "/react-kitchen/static/css/main.3096d78d.chunk.css.map",
     "static/js/2.f563795d.chunk.js.LICENSE.txt": "/react-kitchen/static/js/2.f563795d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.a78fd02f.js",
     "static/js/2.f563795d.chunk.js",
-    "static/css/main.c21536fa.chunk.css",
-    "static/js/main.7a6c1a89.chunk.js"
+    "static/css/main.3096d78d.chunk.css",
+    "static/js/main.6531008d.chunk.js"
   ]
 }
