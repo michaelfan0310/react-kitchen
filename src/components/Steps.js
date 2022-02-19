@@ -1,3 +1,5 @@
+import GitHubButton from 'react-github-btn';
+
 function Steps(){
     return(<div>
 <div class="steps">
@@ -26,6 +28,7 @@ function Steps(){
                     href="https://newsroom.hilton.com/static-doubletree-reveals-cookie-recipe.htm?">https://newsroom.hilton.com/static-doubletree-reveals-cookie-recipe.htm</a></em>
               </p>
             </div>
+            <GitHubButton href="https://github.com/michaelfan0310">Follow @Michael</GitHubButton>
 </div>
     );
 }
