@@ -55,4 +55,9 @@ html {
     margin-top: 0;
     margin-right: 0;
 }
-          
+.GitHubButton{
+  background-color: #61dafb;
+  border: #206a5d;
+  font-size: 1.2rem;
+
+}

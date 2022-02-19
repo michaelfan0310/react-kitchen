@@ -5,7 +5,7 @@ function SubtitleItem(){
  
 
             <h2 id="RecipeA2">Chocolate Cookies</h2>
-            <GitHubButton href="https://github.com/michaelfan0310">Follow @Michael</GitHubButton>
+            <GitHubButton className="GitHubButton" href="https://github.com/michaelfan0310">Follow @Michael</GitHubButton>
             <ul>
               <li>Time: 30mins</li>
               <li><i className="fas fa-info-circle"></i> Serves: 3</li>
